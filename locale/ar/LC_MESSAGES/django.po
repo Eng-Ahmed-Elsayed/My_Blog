@@ -1,0 +1,1657 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-18 15:26+0200\n"
+"PO-Revision-Date: 2022-09-18 15:34+0000\n"
+"Last-Translator: Admin Test <admin@agd.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
+
+#: .\authors\templates\authors\authors.html:9
+#: .\base\templates\base\home.html:240 .\templates\navbar.html:29
+msgid "Authors"
+msgstr "المؤلفون"
+
+#: .\base\models.py:12
+msgid "username"
+msgstr "اسم المستخدم"
+
+#: .\base\models.py:13
+msgid "first_name"
+msgstr "الاسم الاول"
+
+#: .\base\models.py:14
+msgid "last_name"
+msgstr "الاسم الاخير"
+
+#: .\base\models.py:15
+msgid "email"
+msgstr "ايميل"
+
+#: .\base\models.py:16
+msgid "phone"
+msgstr "رقم الهاتف"
+
+#: .\base\models.py:17
+msgid "author"
+msgstr "المؤلف"
+
+#: .\base\models.py:18
+msgid "avatar"
+msgstr "افاتار"
+
+#: .\base\models.py:19
+msgid "bio"
+msgstr "نبذه"
+
+#: .\base\models.py:20
+msgid "job"
+msgstr "الوظيفة"
+
+#: .\base\models.py:31
+msgid "name"
+msgstr "الاسم"
+
+#: .\base\models.py:50
+msgid "title"
+msgstr "العنوان"
+
+#: .\base\models.py:52 .\base\templates\base\home.html:260
+msgid "Categories"
+msgstr "الفئات"
+
+#: .\base\models.py:54
+msgid "image"
+msgstr "صورة"
+
+#: .\base\models.py:55
+msgid "min_to_read"
+msgstr "عدد الدقائق للقرائة"
+
+#: .\base\models.py:56
+msgid "body"
+msgstr "المحتوي"
+
+#: .\base\models.py:57
+msgid "tags"
+msgstr "العلامات"
+
+#: .\base\models.py:89
+msgid "comment_field"
+msgstr "محتوي التعليق"
+
+#: .\base\models.py:103
+msgid "your_name"
+msgstr "اسمك"
+
+#: .\base\models.py:104
+msgid "your_email"
+msgstr "عنوان بريدك الالكتروني"
+
+#: .\base\models.py:105
+msgid "reason_for_contact"
+msgstr "سبب التواصل"
+
+#: .\base\models.py:106
+msgid "your_message"
+msgstr "رسالتك"
+
+#: .\base\templates\base\about_us.html:10
+#| msgid "About"
+msgid "About Us"
+msgstr "عنا"
+
+#: .\base\templates\base\about_us.html:78
+msgid "What is the main mission of mine and what i wanna do?"
+msgstr "ما هي مهمتي الرئيسية وماذا أريد أن أفعل؟"
+
+#: .\base\templates\base\about_us.html:183
+msgid "We have a great team of great authors"
+msgstr "لدينا فريق رائع من المؤلفين العظماء"
+
+#: .\base\templates\base\about_us.html:207
+msgid "Don’t forget to subscribe my Youtube channel"
+msgstr "لا تنس الاشتراك في قناتي على اليوتيوب"
+
+#: .\base\templates\base\about_us.html:232
+msgid "Join The Team Of Biggest Qualitiful Authors"
+msgstr "انضم إلى فريق أكبر المؤلفين المؤهلين"
+
+#: .\base\templates\base\contact.html:10
+#| msgid "Contact US"
+msgid "Contact Us"
+msgstr "تواصل معنا"
+
+#: .\base\templates\base\contact.html:77
+msgid "We would Love To Hear From You"
+msgstr "نحب أن تتواصل معنا"
+
+#: .\base\templates\base\home.html:12
+msgid "What Would You"
+msgstr "ماذا تحب"
+
+#: .\base\templates\base\home.html:12
+msgid "Like To Read Today?"
+msgstr "ان تقرأ اليوم"
+
+#: .\base\templates\base\home.html:74
+msgid "Editors Pick"
+msgstr "اختيار المحررين"
+
+#: .\base\templates\base\home.html:117
+msgid "Trending Posts"
+msgstr "الاخبار الشائعة"
+
+#: .\base\templates\base\home.html:139
+msgid "Popular Post"
+msgstr "خبر عاجل"
+
+#: .\base\templates\base\home.html:192
+msgid "Recent Posts"
+msgstr "الاخبار الحديثة"
+
+#: .\base\templates\base\home.html:198 .\base\templates\base\home.html:202
+#| msgid "March"
+msgid "Search"
+msgstr "بحث"
+
+#: .\base\templates\base\home.html:208
+msgid "Hi, I am"
+msgstr " "
+
+#: .\base\templates\base\home.html:224
+msgid "About me"
+msgstr "عني"
+
+#: .\base\templates\base\home.html:231
+msgid "Want To Join US!!"
+msgstr "!!!ترغب في الانضمام"
+
+#: .\base\templates\base\home.html:234
+msgid "Contact US"
+msgstr "تواصل معنا"
+
+#: .\base\templates\base\home.html:253
+msgid "See All"
+msgstr "اظهر الكل"
+
+#: .\base\templates\base\home.html:269
+msgid "You May Like"
+msgstr "من الممكن ان يعجبك"
+
+#: .\base\templates\base\home.html:290
+msgid "Social Links"
+msgstr "روابط المواقع الاجتماعية"
+
+#: .\myblog\settings.py:128
+msgid "Arabic"
+msgstr "العربيّة"
+
+#: .\myblog\settings.py:129
+msgid "English"
+msgstr "الإنجليزيّة"
+
+#: .\myvenv\Lib\site-packages\ckeditor_uploader\forms.py:6
+msgid "Search files"
+msgstr "ابحث عن الملفات"
+
+#: .\myvenv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:5
+msgid "Select an image to embed"
+msgstr "حدد صورة لتضمينها"
+
+#: .\myvenv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:27
+msgid "Browse for the image you want, then click 'Embed Image' to continue..."
+msgstr ""
+"تصفح للوصول إلى الصورة التي تريدها ، ثم انقر فوق \"تضمين الصورة\" للمتابعة "
+"..."
+
+#: .\myvenv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:29
+msgid ""
+"No images found. Upload images using the 'Image Button' dialog's 'Upload' "
+"tab."
+msgstr ""
+"لم يتم العثور على صور. قم بتحميل الصور باستخدام علامة التبويب \"تحميل\" في "
+"مربع الحوار \"زر الصورة\"."
+
+#: .\myvenv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:50
+msgid "Images in: "
+msgstr "صورة"
+
+#: .\myvenv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:62
+#: .\myvenv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:80
+msgid "Embed Image"
+msgstr "صورة"
+
+#: .\myvenv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:146
+msgid "Play Slideshow"
+msgstr "عرض الشرائح"
+
+#: .\myvenv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:147
+msgid "Pause Slideshow"
+msgstr "وقف عرض الشرائح"
+
+#: .\myvenv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:148
+msgid "&lsaquo; Previous Photo"
+msgstr ""
+
+#: .\myvenv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:149
+msgid "Next Photo &rsaquo;"
+msgstr ""
+
+#: .\myvenv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:150
+msgid "Next &rsaquo;"
+msgstr ""
+
+#: .\myvenv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:151
+msgid "&lsaquo; Prev"
+msgstr ""
+
+#: .\myvenv\Lib\site-packages\django\contrib\messages\apps.py:15
+msgid "Messages"
+msgstr ""
+
+#: .\myvenv\Lib\site-packages\django\contrib\sitemaps\apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: .\myvenv\Lib\site-packages\django\contrib\staticfiles\apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: .\myvenv\Lib\site-packages\django\contrib\syndication\apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: .\myvenv\Lib\site-packages\django\core\paginator.py:30
+msgid "…"
+msgstr "..."
+
+#: .\myvenv\Lib\site-packages\django\core\paginator.py:50
+msgid "That page number is not an integer"
+msgstr "رقم الصفحة هذا ليس عدداً طبيعياً"
+
+#: .\myvenv\Lib\site-packages\django\core\paginator.py:52
+msgid "That page number is less than 1"
+msgstr "رقم الصفحة أقل من 1"
+
+#: .\myvenv\Lib\site-packages\django\core\paginator.py:57
+msgid "That page contains no results"
+msgstr "هذه الصفحة لا تحتوي على نتائج"
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:22
+msgid "Enter a valid value."
+msgstr "أدخِل قيمة صحيحة."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:104
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:751
+msgid "Enter a valid URL."
+msgstr "أدخِل رابطًا صحيحًا."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:164
+msgid "Enter a valid integer."
+msgstr "أدخِل عدداً طبيعياً."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:175
+msgid "Enter a valid email address."
+msgstr "أدخِل عنوان بريد إلكتروني صحيح."
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: .\myvenv\Lib\site-packages\django\core\validators.py:256
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr "أدخل اختصار 'slug' صحيح يتكوّن من أحرف، أرقام، شرطات سفلية وعاديّة."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:264
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or"
+" hyphens."
+msgstr ""
+"أدخل اختصار 'slug' صحيح يتكون من أحرف Unicode أو أرقام أو شرطات سفلية أو "
+"واصلات."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:276
+#: .\myvenv\Lib\site-packages\django\core\validators.py:284
+#: .\myvenv\Lib\site-packages\django\core\validators.py:313
+msgid "Enter a valid IPv4 address."
+msgstr "أدخِل عنوان IPv4 صحيح."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:293
+#: .\myvenv\Lib\site-packages\django\core\validators.py:314
+msgid "Enter a valid IPv6 address."
+msgstr "أدخِل عنوان IPv6 صحيح."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:305
+#: .\myvenv\Lib\site-packages\django\core\validators.py:312
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr "أدخِل عنوان IPv4 أو عنوان IPv6 صحيح."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:348
+msgid "Enter only digits separated by commas."
+msgstr "أدخِل فقط أرقامًا تفصلها الفواصل."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:354
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr "تحقق من أن هذه القيمة هي %(limit_value)s (إنها %(show_value)s)."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:389
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr "تحقق من أن تكون هذه القيمة أقل من %(limit_value)s أو مساوية لها."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:398
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr "تحقق من أن تكون هذه القيمة أكثر من %(limit_value)s أو مساوية لها."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:407
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr "تحقق من أن تكون هذه القيمة أقل من %(limit_value)s أو مساوية لها."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:417
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+"تأكد أن هذه القيمة تحتوي على %(limit_value)d حرف أو رمز على الأقل (هي تحتوي "
+"حالياً على %(show_value)d)."
+msgstr[1] ""
+"تأكد أن هذه القيمة تحتوي على حرف أو رمز %(limit_value)d على الأقل (هي تحتوي "
+"حالياً على %(show_value)d)."
+msgstr[2] ""
+"تأكد أن هذه القيمة تحتوي على %(limit_value)d حرف و رمز على الأقل (هي تحتوي "
+"حالياً على %(show_value)d)."
+msgstr[3] ""
+"تأكد أن هذه القيمة تحتوي على %(limit_value)d حرف أو رمز على الأقل (هي تحتوي "
+"حالياً على %(show_value)d)."
+msgstr[4] ""
+"تأكد أن هذه القيمة تحتوي على %(limit_value)d حرف أو رمز على الأقل (هي تحتوي "
+"حالياً على %(show_value)d)."
+msgstr[5] ""
+"تأكد أن هذه القيمة تحتوي على %(limit_value)d حرف أو رمز على الأقل (هي تحتوي "
+"حالياً على %(show_value)d)."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:435
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+"تأكد أن هذه القيمة تحتوي على %(limit_value)d حرف أو رمز على الأكثر (هي تحتوي"
+" حالياً على %(show_value)d)."
+msgstr[1] ""
+"تأكد أن هذه القيمة تحتوي على حرف أو رمز %(limit_value)d على الأكثر (هي تحتوي"
+" حالياً على %(show_value)d)."
+msgstr[2] ""
+"تأكد أن هذه القيمة تحتوي على %(limit_value)d حرف و رمز على الأكثر (هي تحتوي "
+"حالياً على %(show_value)d)."
+msgstr[3] ""
+"تأكد أن هذه القيمة تحتوي على %(limit_value)d حرف أو رمز على الأكثر (هي تحتوي"
+" حالياً على %(show_value)d)."
+msgstr[4] ""
+"تأكد أن هذه القيمة تحتوي على %(limit_value)d حرف أو رمز على الأكثر (هي تحتوي"
+" حالياً على %(show_value)d)."
+msgstr[5] ""
+"تأكد أن هذه القيمة تحتوي على %(limit_value)d حرف أو رمز على الأكثر (هي تحتوي"
+" حالياً على %(show_value)d)."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:458
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:347
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:386
+msgid "Enter a number."
+msgstr "أدخل رقماً."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:460
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] "تحقق من أن تدخل %(max)s أرقام لا أكثر."
+msgstr[1] "تحقق من أن تدخل رقم %(max)s لا أكثر."
+msgstr[2] "تحقق من أن تدخل %(max)s رقمين لا أكثر."
+msgstr[3] "تحقق من أن تدخل %(max)s أرقام لا أكثر."
+msgstr[4] "تحقق من أن تدخل %(max)s أرقام لا أكثر."
+msgstr[5] "تحقق من أن تدخل %(max)s أرقام لا أكثر."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:465
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] "تحقق من أن تدخل %(max)s خانات عشرية لا أكثر."
+msgstr[1] "تحقق من أن تدخل خانة %(max)s عشرية لا أكثر."
+msgstr[2] "تحقق من أن تدخل %(max)s خانتين عشريتين لا أكثر."
+msgstr[3] "تحقق من أن تدخل %(max)s خانات عشرية لا أكثر."
+msgstr[4] "تحقق من أن تدخل %(max)s خانات عشرية لا أكثر."
+msgstr[5] "تحقق من أن تدخل %(max)s خانات عشرية لا أكثر."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:470
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] "تحقق من أن تدخل %(max)s أرقام قبل الفاصل العشري لا أكثر."
+msgstr[1] "تحقق من أن تدخل رقم %(max)s قبل الفاصل العشري لا أكثر."
+msgstr[2] "تحقق من أن تدخل %(max)s رقمين قبل الفاصل العشري لا أكثر."
+msgstr[3] "تحقق من أن تدخل %(max)s أرقام قبل الفاصل العشري لا أكثر."
+msgstr[4] "تحقق من أن تدخل %(max)s أرقام قبل الفاصل العشري لا أكثر."
+msgstr[5] "تحقق من أن تدخل %(max)s أرقام قبل الفاصل العشري لا أكثر."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:539
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+"امتداد الملف “%(extension)s” غير مسموح به. الامتدادات المسموح بها "
+"هي:%(allowed_extensions)s."
+
+#: .\myvenv\Lib\site-packages\django\core\validators.py:600
+msgid "Null characters are not allowed."
+msgstr "الأحرف الخالية غير مسموح بها."
+
+#: .\myvenv\Lib\site-packages\django\db\models\base.py:1420
+#: .\myvenv\Lib\site-packages\django\forms\models.py:899
+msgid "and"
+msgstr "و"
+
+#: .\myvenv\Lib\site-packages\django\db\models\base.py:1422
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr "%(model_name)s بهذا %(field_labels)s موجود سلفاً."
+
+#: .\myvenv\Lib\site-packages\django\db\models\constraints.py:17
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:129
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr "القيمة %(value)r ليست خيارا صحيحاً."
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:130
+msgid "This field cannot be null."
+msgstr "لا يمكن تعيين null كقيمة لهذا الحقل."
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:131
+msgid "This field cannot be blank."
+msgstr "لا يمكن ترك هذا الحقل فارغاً."
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:132
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr "النموذج %(model_name)s والحقل %(field_label)s موجود مسبقاً."
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:136
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+"%(field_label)s يجب أن يكون فريد لـ %(date_field_label)s %(lookup_type)s."
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:174
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr "حقل نوع: %(field_type)s"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1065
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr "قيمة '%(value)s' يجب أن تكون True أو False."
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1066
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr "قيمة “%(value)s” يجب أن تكون True , False أو None."
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1068
+msgid "Boolean (Either True or False)"
+msgstr "ثنائي (إما True أو False)"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1118
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr "سلسلة نص (%(max_length)s كحد أقصى)"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1222
+msgid "Comma-separated integers"
+msgstr "أرقام صحيحة مفصولة بفواصل"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1323
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+"قيمة '%(value)s' ليست من بُنية تاريخ صحيحة. القيمة يجب ان تكون من البُنية "
+"YYYY-MM-DD."
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1327
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1462
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+"قيمة '%(value)s' من بُنية صحيحة (YYYY-MM-DD) لكنها تحوي تاريخ غير صحيح."
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1331
+msgid "Date (without time)"
+msgstr "التاريخ (دون الوقت)"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1458
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ] format."
+msgstr ""
+"قيمة '%(value)s' ليست من بُنية صحيحة. القيمة يجب ان تكون من البُنية YYYY-MM-"
+"DD HH:MM[:ss[.uuuuuu]][TZ] ."
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1466
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ]) but it is an invalid date/time."
+msgstr ""
+"قيمة '%(value)s' من بُنية صحيحة (YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ]) لكنها "
+"تحوي وقت و تاريخ غير صحيحين."
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1471
+msgid "Date (with time)"
+msgstr "التاريخ (مع الوقت)"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1595
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr "قيمة '%(value)s' يجب ان تكون عدد عشري."
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1597
+msgid "Decimal number"
+msgstr "رقم عشري"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1754
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] "
+"[[HH:]MM:]ss[.uuuuuu] format."
+msgstr ""
+"قيمة '%(value)s' ليست بنسق صحيح. القيمة يجب ان تكون من التنسيق ([DD] "
+"[[HH:]MM:]ss[.uuuuuu])"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1758
+msgid "Duration"
+msgstr "المدّة"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1810
+msgid "Email address"
+msgstr "عنوان بريد إلكتروني"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1835
+msgid "File path"
+msgstr "مسار الملف"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1913
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr "قيمة '%(value)s' يجب ان تكون عدد تعويم."
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1915
+msgid "Floating point number"
+msgstr "رقم فاصلة عائمة"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1955
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr "قيمة '%(value)s' يجب ان تكون عدد طبيعي."
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:1957
+msgid "Integer"
+msgstr "عدد صحيح"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:2049
+msgid "Big (8 byte) integer"
+msgstr "عدد صحيح كبير (8 بايت)"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:2066
+msgid "Small integer"
+msgstr "عدد صحيح صغير"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:2074
+msgid "IPv4 address"
+msgstr "عنوان IPv4"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:2105
+msgid "IP address"
+msgstr "عنوان IP"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:2198
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:2199
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr "قيمة '%(value)s' يجب ان تكون None أو True أو False."
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:2201
+msgid "Boolean (Either True, False or None)"
+msgstr "ثنائي (إما True أو False أو None)"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:2252
+msgid "Positive big integer"
+msgstr "عدد صحيح موجب كبير"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:2267
+msgid "Positive integer"
+msgstr "عدد صحيح موجب"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:2282
+msgid "Positive small integer"
+msgstr "عدد صحيح صغير موجب"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:2298
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr "Slug (حتى %(max_length)s)"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:2334
+msgid "Text"
+msgstr "نص"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:2409
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+"قيمة '%(value)s' ليست بنسق صحيح. القيمة يجب ان تكون من التنسيق\n"
+"HH:MM[:ss[.uuuuuu]]"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:2413
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+"قيمة '%(value)s' من بُنية صحيحة (HH:MM[:ss[.uuuuuu]]) لكنها تحوي وقت غير "
+"صحيح."
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:2417
+msgid "Time"
+msgstr "وقت"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:2525
+msgid "URL"
+msgstr "رابط"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:2549
+msgid "Raw binary data"
+msgstr "البيانات الثنائية الخام"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:2614
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr "القيمة \"%(value)s\" ليست UUID صالح."
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\__init__.py:2616
+msgid "Universally unique identifier"
+msgstr "معرّف فريد عالمياً"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\files.py:232
+msgid "File"
+msgstr "ملف"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\files.py:392
+msgid "Image"
+msgstr "صورة"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\json.py:18
+msgid "A JSON object"
+msgstr "كائن JSON"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\json.py:20
+msgid "Value must be valid JSON."
+msgstr "يجب أن تكون قيمة JSON صالحة."
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\related.py:920
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr "النموذج %(model)s ذو الحقل و القيمة %(field)s %(value)r غير موجود."
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\related.py:922
+msgid "Foreign Key (type determined by related field)"
+msgstr "الحقل المرتبط (تم تحديد النوع وفقاً للحقل المرتبط)"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\related.py:1229
+msgid "One-to-one relationship"
+msgstr "علاقة واحد إلى واحد"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\related.py:1286
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr "%(from)s-%(to)s علاقة"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\related.py:1288
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr "%(from)s-%(to)s علاقات"
+
+#: .\myvenv\Lib\site-packages\django\db\models\fields\related.py:1336
+msgid "Many-to-many relationship"
+msgstr "علاقة متعدد إلى متعدد"
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the
+#. label
+#: .\myvenv\Lib\site-packages\django\forms\boundfield.py:176
+msgid ":?.!"
+msgstr ":?.!"
+
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:91
+msgid "This field is required."
+msgstr "هذا الحقل مطلوب."
+
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:298
+msgid "Enter a whole number."
+msgstr "أدخل رقما صحيحا."
+
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:467
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:1240
+msgid "Enter a valid date."
+msgstr "أدخل تاريخاً صحيحاً."
+
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:490
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:1241
+msgid "Enter a valid time."
+msgstr "أدخل وقتاً صحيحاً."
+
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:517
+msgid "Enter a valid date/time."
+msgstr "أدخل تاريخاً/وقتاً صحيحاً."
+
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:551
+msgid "Enter a valid duration."
+msgstr "أدخل مدّة صحيحة"
+
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:552
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr "يجب أن يكون عدد الأيام بين {min_days} و {max_days}."
+
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:618
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr "لم يتم ارسال ملف، الرجاء التأكد من نوع ترميز الاستمارة."
+
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:619
+msgid "No file was submitted."
+msgstr "لم يتم إرسال اي ملف."
+
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:620
+msgid "The submitted file is empty."
+msgstr "الملف الذي قمت بإرساله فارغ."
+
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:622
+#, python-format
+msgid ""
+"Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+"تأكد أن إسم هذا الملف يحتوي على %(max)d حرف على الأكثر (هو يحتوي الآن على "
+"%(length)d حرف)."
+msgstr[1] ""
+"تأكد أن إسم هذا الملف يحتوي على حرف %(max)d على الأكثر (هو يحتوي الآن على "
+"%(length)d حرف)."
+msgstr[2] ""
+"تأكد أن إسم هذا الملف يحتوي على %(max)d حرفين على الأكثر (هو يحتوي الآن على "
+"%(length)d حرف)."
+msgstr[3] ""
+"تأكد أن إسم هذا الملف يحتوي على %(max)d حرف على الأكثر (هو يحتوي الآن على "
+"%(length)d حرف)."
+msgstr[4] ""
+"تأكد أن إسم هذا الملف يحتوي على %(max)d حرف على الأكثر (هو يحتوي الآن على "
+"%(length)d حرف)."
+msgstr[5] ""
+"تأكد أن إسم هذا الملف يحتوي على %(max)d حرف على الأكثر (هو يحتوي الآن على "
+"%(length)d حرف)."
+
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:627
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr "رجاءً أرسل ملف أو صح علامة صح عند مربع اختيار \"فارغ\"، وليس كلاهما."
+
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:693
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+"قم برفع صورة صحيحة، الملف الذي قمت برفعه إما أنه ليس ملفا لصورة أو أنه ملف "
+"معطوب."
+
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:856
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:948
+#: .\myvenv\Lib\site-packages\django\forms\models.py:1572
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr "انتق خياراً صحيحاً. %(value)s ليس أحد الخيارات المتاحة."
+
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:950
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:1069
+#: .\myvenv\Lib\site-packages\django\forms\models.py:1570
+msgid "Enter a list of values."
+msgstr "أدخل قائمة من القيم."
+
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:1070
+msgid "Enter a complete value."
+msgstr "إدخال قيمة كاملة."
+
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:1309
+msgid "Enter a valid UUID."
+msgstr "أدخل قيمة UUID صحيحة."
+
+#: .\myvenv\Lib\site-packages\django\forms\fields.py:1339
+msgid "Enter a valid JSON."
+msgstr "أدخل مدخل JSON صالح."
+
+#. Translators: This is the default suffix added to form field labels
+#: .\myvenv\Lib\site-packages\django\forms\forms.py:98
+msgid ":"
+msgstr ":"
+
+#: .\myvenv\Lib\site-packages\django\forms\forms.py:248
+#: .\myvenv\Lib\site-packages\django\forms\forms.py:332
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr "(الحقل الخفي %(name)s) %(error)s"
+
+#: .\myvenv\Lib\site-packages\django\forms\formsets.py:63
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+"بيانات نموذج الإدارة مفقودة أو تم العبث بها. الحقول المفقودة: "
+"%(field_names)s. قد تحتاج إلى تقديم تقرير خطأ إذا استمرت المشكلة."
+
+#: .\myvenv\Lib\site-packages\django\forms\formsets.py:67
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] "الرجاء إرسال %d إستمارة على الأكثر."
+msgstr[1] "الرجاء إرسال %d إستمارة على الأكثر."
+msgstr[2] "الرجاء إرسال %d إستمارة على الأكثر."
+msgstr[3] "الرجاء إرسال %d إستمارة على الأكثر."
+msgstr[4] "الرجاء إرسال %d إستمارة على الأكثر."
+msgstr[5] "الرجاء إرسال %d إستمارة على الأكثر."
+
+#: .\myvenv\Lib\site-packages\django\forms\formsets.py:72
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] "الرجاء إرسال %d إستمارة على الأقل."
+msgstr[1] "الرجاء إرسال %d إستمارة على الأقل."
+msgstr[2] "الرجاء إرسال %d إستمارة على الأقل."
+msgstr[3] "الرجاء إرسال %d إستمارة على الأقل."
+msgstr[4] "الرجاء إرسال %d إستمارة على الأقل."
+msgstr[5] "الرجاء إرسال %d إستمارة على الأقل."
+
+#: .\myvenv\Lib\site-packages\django\forms\formsets.py:483
+#: .\myvenv\Lib\site-packages\django\forms\formsets.py:490
+msgid "Order"
+msgstr "الترتيب"
+
+#: .\myvenv\Lib\site-packages\django\forms\formsets.py:496
+msgid "Delete"
+msgstr "احذف"
+
+#: .\myvenv\Lib\site-packages\django\forms\models.py:892
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr "رجاء صحّح بيانات %(field)s المتكررة."
+
+#: .\myvenv\Lib\site-packages\django\forms\models.py:897
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr "رجاء صحّح بيانات %(field)s المتكررة والتي يجب أن تكون مُميّزة."
+
+#: .\myvenv\Lib\site-packages\django\forms\models.py:904
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+"رجاء صحّح بيانات %(field_name)s المتكررة والتي يجب أن تكون مُميّزة "
+"لـ%(lookup)s في %(date_field)s."
+
+#: .\myvenv\Lib\site-packages\django\forms\models.py:913
+msgid "Please correct the duplicate values below."
+msgstr "رجاءً صحّح القيم المُكرّرة أدناه."
+
+#: .\myvenv\Lib\site-packages\django\forms\models.py:1344
+msgid "The inline value did not match the parent instance."
+msgstr "لا تتطابق القيمة المضمنة مع المثيل الأصلي."
+
+#: .\myvenv\Lib\site-packages\django\forms\models.py:1435
+msgid ""
+"Select a valid choice. That choice is not one of the available choices."
+msgstr "انتق خياراً صحيحاً. اختيارك ليس أحد الخيارات المتاحة."
+
+#: .\myvenv\Lib\site-packages\django\forms\models.py:1574
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr "\"%(pk)s\" ليست قيمة صالحة."
+
+#: .\myvenv\Lib\site-packages\django\forms\utils.py:226
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+"%(datetime)s لا يمكن تفسيرها في المنطقة الزمنية %(current_timezone)s; قد "
+"تكون غامضة أو أنها غير موجودة."
+
+#: .\myvenv\Lib\site-packages\django\forms\widgets.py:439
+msgid "Clear"
+msgstr "تفريغ"
+
+#: .\myvenv\Lib\site-packages\django\forms\widgets.py:440
+msgid "Currently"
+msgstr "حالياً"
+
+#: .\myvenv\Lib\site-packages\django\forms\widgets.py:441
+msgid "Change"
+msgstr "عدّل"
+
+#: .\myvenv\Lib\site-packages\django\forms\widgets.py:770
+msgid "Unknown"
+msgstr "مجهول"
+
+#: .\myvenv\Lib\site-packages\django\forms\widgets.py:771
+msgid "Yes"
+msgstr "نعم"
+
+#: .\myvenv\Lib\site-packages\django\forms\widgets.py:772
+msgid "No"
+msgstr "لا"
+
+#. Translators: Please do not add spaces around commas.
+#: .\myvenv\Lib\site-packages\django\template\defaultfilters.py:853
+msgid "yes,no,maybe"
+msgstr "نعم,لا,ربما"
+
+#: .\myvenv\Lib\site-packages\django\template\defaultfilters.py:883
+#: .\myvenv\Lib\site-packages\django\template\defaultfilters.py:900
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] "%(size)d بايت"
+msgstr[1] "بايت واحد"
+msgstr[2] "بايتان"
+msgstr[3] "%(size)d بايتان"
+msgstr[4] "%(size)d بايت"
+msgstr[5] "%(size)d بايت"
+
+#: .\myvenv\Lib\site-packages\django\template\defaultfilters.py:902
+#, python-format
+msgid "%s KB"
+msgstr "%s ك.ب"
+
+#: .\myvenv\Lib\site-packages\django\template\defaultfilters.py:904
+#, python-format
+msgid "%s MB"
+msgstr "%s م.ب"
+
+#: .\myvenv\Lib\site-packages\django\template\defaultfilters.py:906
+#, python-format
+msgid "%s GB"
+msgstr "%s ج.ب"
+
+#: .\myvenv\Lib\site-packages\django\template\defaultfilters.py:908
+#, python-format
+msgid "%s TB"
+msgstr "%s ت.ب"
+
+#: .\myvenv\Lib\site-packages\django\template\defaultfilters.py:910
+#, python-format
+msgid "%s PB"
+msgstr "%s ب.ب"
+
+#: .\myvenv\Lib\site-packages\django\utils\dateformat.py:77
+msgid "p.m."
+msgstr "م"
+
+#: .\myvenv\Lib\site-packages\django\utils\dateformat.py:78
+msgid "a.m."
+msgstr "ص"
+
+#: .\myvenv\Lib\site-packages\django\utils\dateformat.py:83
+msgid "PM"
+msgstr "م"
+
+#: .\myvenv\Lib\site-packages\django\utils\dateformat.py:84
+msgid "AM"
+msgstr "ص"
+
+#: .\myvenv\Lib\site-packages\django\utils\dateformat.py:155
+msgid "midnight"
+msgstr "منتصف الليل"
+
+#: .\myvenv\Lib\site-packages\django\utils\dateformat.py:157
+msgid "noon"
+msgstr "ظهراً"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:7
+msgid "Monday"
+msgstr "الاثنين"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:8
+msgid "Tuesday"
+msgstr "الثلاثاء"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:9
+msgid "Wednesday"
+msgstr "الأربعاء"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:10
+msgid "Thursday"
+msgstr "الخميس"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:11
+msgid "Friday"
+msgstr "الجمعة"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:12
+msgid "Saturday"
+msgstr "السبت"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:13
+msgid "Sunday"
+msgstr "الأحد"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:16
+msgid "Mon"
+msgstr "إثنين"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:17
+msgid "Tue"
+msgstr "ثلاثاء"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:18
+msgid "Wed"
+msgstr "أربعاء"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:19
+msgid "Thu"
+msgstr "خميس"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:20
+msgid "Fri"
+msgstr "جمعة"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:21
+msgid "Sat"
+msgstr "سبت"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:22
+msgid "Sun"
+msgstr "أحد"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:25
+msgid "January"
+msgstr "يناير"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:26
+msgid "February"
+msgstr "فبراير"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:27
+msgid "March"
+msgstr "مارس"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:28
+msgid "April"
+msgstr "إبريل"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:29
+msgid "May"
+msgstr "مايو"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:30
+msgid "June"
+msgstr "يونيو"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:31
+msgid "July"
+msgstr "يوليو"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:32
+msgid "August"
+msgstr "أغسطس"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:33
+msgid "September"
+msgstr "سبتمبر"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:34
+msgid "October"
+msgstr "أكتوبر"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:35
+msgid "November"
+msgstr "نوفمبر"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:36
+msgid "December"
+msgstr "ديسمبر"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:39
+msgid "jan"
+msgstr "يناير"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:40
+msgid "feb"
+msgstr "فبراير"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:41
+msgid "mar"
+msgstr "مارس"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:42
+msgid "apr"
+msgstr "إبريل"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:43
+msgid "may"
+msgstr "مايو"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:44
+msgid "jun"
+msgstr "يونيو"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:45
+msgid "jul"
+msgstr "يوليو"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:46
+msgid "aug"
+msgstr "أغسطس"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:47
+msgid "sep"
+msgstr "سبتمبر"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:48
+msgid "oct"
+msgstr "أكتوبر"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:49
+msgid "nov"
+msgstr "نوفمبر"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:50
+msgid "dec"
+msgstr "ديسمبر"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr "يناير"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr "فبراير"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr "مارس"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr "إبريل"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr "مايو"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr "يونيو"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr "يوليو"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr "أغسطس"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr "سبتمبر"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr "أكتوبر"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr "نوفمبر"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr "ديسمبر"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr "يناير"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr "فبراير"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr "مارس"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr "أبريل"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr "مايو"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr "يونيو"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr "يوليو"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr "أغسطس"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr "سبتمبر"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr "أكتوبر"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr "نوفمبر"
+
+#: .\myvenv\Lib\site-packages\django\utils\dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr "ديسمبر"
+
+#: .\myvenv\Lib\site-packages\django\utils\ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr "هذا ليس عنوان IPv6 صحيح."
+
+#: .\myvenv\Lib\site-packages\django\utils\text.py:76
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr "%(truncated_text)s…"
+
+#: .\myvenv\Lib\site-packages\django\utils\text.py:252
+msgid "or"
+msgstr "أو"
+
+#. Translators: This string is used as a separator between list elements
+#: .\myvenv\Lib\site-packages\django\utils\text.py:271
+#: .\myvenv\Lib\site-packages\django\utils\timesince.py:94
+msgid ", "
+msgstr "، "
+
+#: .\myvenv\Lib\site-packages\django\utils\timesince.py:9
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] "%(num)d سنة"
+msgstr[1] "%(num)d سنة"
+msgstr[2] "%(num)d سنتين"
+msgstr[3] "%(num)d سنوات"
+msgstr[4] "%(num)d سنوات"
+msgstr[5] "%(num)d سنوات"
+
+#: .\myvenv\Lib\site-packages\django\utils\timesince.py:10
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] "%(num)d شهر"
+msgstr[1] "%(num)d شهر"
+msgstr[2] "%(num)d شهرين"
+msgstr[3] "%(num)d أشهر"
+msgstr[4] "%(num)d أشهر"
+msgstr[5] "%(num)d أشهر"
+
+#: .\myvenv\Lib\site-packages\django\utils\timesince.py:11
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] "%(num)d أسبوع"
+msgstr[1] "%(num)d أسبوع"
+msgstr[2] "%(num)d أسبوعين"
+msgstr[3] "%(num)d أسابيع"
+msgstr[4] "%(num)d أسابيع"
+msgstr[5] "%(num)d أسابيع"
+
+#: .\myvenv\Lib\site-packages\django\utils\timesince.py:12
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] "%(num)d يوم"
+msgstr[1] "%(num)d يوم"
+msgstr[2] "%(num)d يومين"
+msgstr[3] "%(num)d أيام"
+msgstr[4] "%(num)d يوم"
+msgstr[5] "%(num)d أيام"
+
+#: .\myvenv\Lib\site-packages\django\utils\timesince.py:13
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] "%(num)d ساعة"
+msgstr[1] "%(num)d ساعة"
+msgstr[2] "%(num)d ساعتين"
+msgstr[3] "%(num)d ساعات"
+msgstr[4] "%(num)d ساعة"
+msgstr[5] "%(num)d ساعات"
+
+#: .\myvenv\Lib\site-packages\django\utils\timesince.py:14
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] "%(num)d دقيقة"
+msgstr[1] "%(num)d دقيقة"
+msgstr[2] "%(num)d دقيقتين"
+msgstr[3] "%(num)d دقائق"
+msgstr[4] "%(num)d دقيقة"
+msgstr[5] "%(num)d دقيقة"
+
+#: .\myvenv\Lib\site-packages\django\views\csrf.py:111
+msgid "Forbidden"
+msgstr "ممنوع"
+
+#: .\myvenv\Lib\site-packages\django\views\csrf.py:112
+msgid "CSRF verification failed. Request aborted."
+msgstr "تم الفشل للتحقق من CSRF. تم إنهاء الطلب."
+
+#: .\myvenv\Lib\site-packages\django\views\csrf.py:116
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+"أنت ترى هذه الرسالة لأن موقع HTTPS هذا يتطلب إرسال “Referer header” بواسطة "
+"متصفح الويب الخاص بك، ولكن لم يتم إرسال أي منها. هذا مطلوب لأسباب أمنية، "
+"لضمان عدم اختطاف متصفحك من قبل أطراف ثالثة."
+
+#: .\myvenv\Lib\site-packages\django\views\csrf.py:122
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+"إذا قمت بتكوين المستعرض لتعطيل رؤوس “Referer” ، فيرجى إعادة تمكينها ، على "
+"الأقل لهذا الموقع ، أو لاتصالات HTTPS ، أو لطلبات “same-origin”."
+
+#: .\myvenv\Lib\site-packages\django\views\csrf.py:127
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or"
+" including the “Referrer-Policy: no-referrer” header, please remove them. "
+"The CSRF protection requires the “Referer” header to do strict referer "
+"checking. If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
+msgstr ""
+"إذا كنت تستخدم العلامة <meta name=\"referrer\" content=\"no-referrer\"> أو "
+"تضمين رأس “Referrer-Policy: no-referrer”، يرجى إزالتها. تتطلب حماية CSRF أن "
+"يقوم رأس “Referer” بإجراء فحص صارم للمراجع. إذا كنت قلقًا بشأن الخصوصية ، "
+"فاستخدم بدائل مثل <a rel=\"noreferrer\" …> للروابط إلى مواقع الجهات "
+"الخارجية."
+
+#: .\myvenv\Lib\site-packages\django\views\csrf.py:136
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+"أنت ترى هذه الرسالة لأن هذا الموقع يتطلب كعكة CSRF عند تقديم النماذج. ملف "
+"الكعكة هذا مطلوب  لأسباب أمنية في تعريف الإرتباط، لضمان أنه لم يتم اختطاف "
+"المتصفح من قبل أطراف أخرى."
+
+#: .\myvenv\Lib\site-packages\django\views\csrf.py:142
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+"إذا قمت بضبط المتصفح لتعطيل الكوكيز الرجاء إعادة تغعيلها، على الأقل بالنسبة "
+"لهذا الموقع، أو للطلبات من “same-origin”."
+
+#: .\myvenv\Lib\site-packages\django\views\csrf.py:148
+msgid "More information is available with DEBUG=True."
+msgstr "يتوفر مزيد من المعلومات عند ضبط الخيار DEBUG=True."
+
+#: .\myvenv\Lib\site-packages\django\views\generic\dates.py:44
+msgid "No year specified"
+msgstr "لم تحدد السنة"
+
+#: .\myvenv\Lib\site-packages\django\views\generic\dates.py:64
+#: .\myvenv\Lib\site-packages\django\views\generic\dates.py:115
+#: .\myvenv\Lib\site-packages\django\views\generic\dates.py:214
+msgid "Date out of range"
+msgstr "التاريخ خارج النطاق"
+
+#: .\myvenv\Lib\site-packages\django\views\generic\dates.py:94
+msgid "No month specified"
+msgstr "لم تحدد الشهر"
+
+#: .\myvenv\Lib\site-packages\django\views\generic\dates.py:147
+msgid "No day specified"
+msgstr "لم تحدد اليوم"
+
+#: .\myvenv\Lib\site-packages\django\views\generic\dates.py:194
+msgid "No week specified"
+msgstr "لم تحدد الأسبوع"
+
+#: .\myvenv\Lib\site-packages\django\views\generic\dates.py:349
+#: .\myvenv\Lib\site-packages\django\views\generic\dates.py:380
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr "لا يوجد %(verbose_name_plural)s"
+
+#: .\myvenv\Lib\site-packages\django\views\generic\dates.py:652
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because "
+"%(class_name)s.allow_future is False."
+msgstr ""
+"التاريخ بالمستقبل %(verbose_name_plural)s غير متوفر لأن قيمة "
+"%(class_name)s.allow_future هي False."
+
+#: .\myvenv\Lib\site-packages\django\views\generic\dates.py:692
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr "نسق تاريخ غير صحيح \"%(datestr)s\" محدد بالشكل ''%(format)s\""
+
+#: .\myvenv\Lib\site-packages\django\views\generic\detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr "لم يعثر على أي %(verbose_name)s مطابقة لهذا الإستعلام"
+
+#: .\myvenv\Lib\site-packages\django\views\generic\list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr "الصفحة ليست \"الأخيرة\"، كما لا يمكن تحويل القيمة إلى رقم طبيعي."
+
+#: .\myvenv\Lib\site-packages\django\views\generic\list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr "صفحة خاطئة (%(page_number)s): %(message)s"
+
+#: .\myvenv\Lib\site-packages\django\views\generic\list.py:169
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+"قائمة فارغة و\n"
+"\"%(class_name)s.allow_empty\"\n"
+"قيمته False."
+
+#: .\myvenv\Lib\site-packages\django\views\static.py:38
+msgid "Directory indexes are not allowed here."
+msgstr "لا يسمح لفهارس الدليل هنا."
+
+#: .\myvenv\Lib\site-packages\django\views\static.py:40
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr "”%(path)s“ غير موجود"
+
+#: .\myvenv\Lib\site-packages\django\views\static.py:79
+#, python-format
+msgid "Index of %(directory)s"
+msgstr "فهرس لـ %(directory)s"
+
+#: .\myvenv\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\myvenv\Lib\site-packages\django\views\templates\default_urlconf.html:221
+msgid "The install worked successfully! Congratulations!"
+msgstr "تمت عملية التنصيب بنجاح! تهانينا!"
+
+#: .\myvenv\Lib\site-packages\django\views\templates\default_urlconf.html:207
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+"استعراض <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">ملاحظات الإصدار</a> لجانغو %(version)s"
+
+#: .\myvenv\Lib\site-packages\django\views\templates\default_urlconf.html:222
+#, python-format
+msgid ""
+"You are seeing this page because <a "
+"href=\"https://docs.djangoproject.com/en/%(version)s/ref/settings/#debug\" "
+"target=\"_blank\" rel=\"noopener\">DEBUG=True</a> is in your settings file "
+"and you have not configured any URLs."
+msgstr ""
+"تظهر لك هذه الصفحة لأن <a "
+"href=\"https://docs.djangoproject.com/en/%(version)s/ref/settings/#debug\" "
+"target=\"_blank\" rel=\"noopener\">DEBUG=True</a> في ملف settings خاصتك كما "
+"أنك لم تقم بإعداد الروابط URLs."
+
+#: .\myvenv\Lib\site-packages\django\views\templates\default_urlconf.html:230
+msgid "Django Documentation"
+msgstr "وثائق تعليمات جانغو"
+
+#: .\myvenv\Lib\site-packages\django\views\templates\default_urlconf.html:231
+msgid "Topics, references, &amp; how-to’s"
+msgstr "المواضيع و المراجع و التعليمات"
+
+#: .\myvenv\Lib\site-packages\django\views\templates\default_urlconf.html:239
+msgid "Tutorial: A Polling App"
+msgstr "برنامج تعليمي: تطبيق تصويت"
+
+#: .\myvenv\Lib\site-packages\django\views\templates\default_urlconf.html:240
+msgid "Get started with Django"
+msgstr "إبدأ مع جانغو"
+
+#: .\myvenv\Lib\site-packages\django\views\templates\default_urlconf.html:248
+msgid "Django Community"
+msgstr "مجتمع جانغو"
+
+#: .\myvenv\Lib\site-packages\django\views\templates\default_urlconf.html:249
+msgid "Connect, get help, or contribute"
+msgstr "اتصل بنا أو احصل على مساعدة أو ساهم"
+
+#: .\templates\navbar.html:15
+msgid "Home"
+msgstr "الرئيسية"
+
+#: .\templates\navbar.html:21
+msgid "Posts"
+msgstr "الاخبار"
+
+#: .\templates\navbar.html:24
+msgid "Trending"
+msgstr "الاخبار الشائعة"
+
+#: .\templates\navbar.html:25
+msgid "Recent"
+msgstr "الاخبار الحديثة"
+
+#: .\templates\navbar.html:32
+msgid "About"
+msgstr "عنا"
+
+#: .\templates\navbar.html:36
+msgid "Contact"
+msgstr "تواصل معنا"
+
+#: .\templates\navbar.html:46
+msgid "Create Post"
+msgstr "أنشأ خبر جديد"
+
+#: .\templates\navbar.html:48
+msgid "Edit Profile"
+msgstr "تعديل الملف الشخصي"
+
+#: .\templates\navbar.html:49
+msgid "Logout"
+msgstr "تسجيل الخروج"
+
+#: .\templates\navbar.html:57
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: .\templates\navbar.html:60
+msgid "Register"
+msgstr "انشاء حساب"

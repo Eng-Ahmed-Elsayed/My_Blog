@@ -1,0 +1,77 @@
+{% extends 'main.html' %}
+{% block title %}{{page_name}}{% endblock %}
+{% block content %}
+
+<div class="py-4"></div>
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class=" col-lg-9   mb-5 mb-lg-0">
+        <article>
+          <div class="post-slider mb-4">
+            <img src="{{post.image.url}}" class="card-img" alt="post-thumb">
+          </div>
+
+          <div class="h2 text-center">{{post.title}}. </div>
+          <ul class="card-meta my-3 list-inline">
+            <li class="list-inline-item">
+              <a href="{% url 'author_profile' post.user.id  %}" class="card-meta-author">
+                <img src="{{post.user.avatar.url}}">
+                <span>{{post.user}}</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <i class="ti-timer"></i>{{post.min_to_read}} Min To Read
+            </li>
+            <li class="list-inline-item">
+              <i class="ti-calendar"></i>{{post.created|date:"M d, Y"}}
+            </li>
+            {% include 'base/categories_and_tags.html' %}
+          </ul>
+          <div class="content">{{post.body|safe}}</div>
+        </article>
+
+      </div>
+
+      <div class="col-lg-9 col-md-12">
+        <div class="mb-5 border-top mt-4 pt-5">
+          <h3 class="mb-4">Comments</h3>
+        {% for comment in comments %}
+          <div class="media d-block d-sm-flex mb-4 pb-4">
+            <p class="d-inline-block mr-2 mb-3 mb-md-0">
+              <img src="{{comment.user.avatar.url}}" class="mr-3 rounded-circle" alt="">
+            </p>
+            <div class="media-body">
+              <p class="h4 d-inline-block mb-3">{{comment.user.fullname}}</p>
+
+              <p>{{comment.comment_field}}</p>
+
+              <span class="text-black-800 mr-3 font-weight-600">{{comment.created|timesince}}</span>
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+
+        <div>
+          <h3 class="mb-4">Leave a Reply</h3>
+          <form method="POST">
+            {% csrf_token %}
+            <div class="row">
+              {% for field in form %}
+              <div class="form-group col-md-12">
+                {{field}}
+              </div>
+              {% endfor %}
+              <div class="text-center col-12">
+                <button class="btn btn-primary" type="submit" name="comment">Comment Now</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{% endblock %}

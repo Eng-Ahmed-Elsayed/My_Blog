@@ -1,0 +1,37 @@
+{% for post in posts %}
+<article class="card mb-4">
+
+    <div class="post-slider ">
+        <img src="{{post.image.url}}" class="card-img" alt="post-thumb">
+    </div>
+
+    <div class="card-body">
+        <h3 class="mb-3"><a class="post-title" href="{% url 'post_details' post.id %}">{{post.title}}. </a></h3>
+        <ul class="card-meta list-inline">
+            <li class="list-inline-item">
+                <a href="{% url 'author_profile' post.user.id  %}" class="card-meta-author">
+                    <img src="{{post.user.avatar.url}}">
+                    <span>{{post.user}}</span>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <i class="ti-timer"></i>{{post.min_to_read}} Min To Read
+            </li>
+            <li class="list-inline-item">
+                <i class="ti-calendar"></i>{{post.created|date:"M d, Y"}}
+            </li>
+            {% include 'base/categories_and_tags.html' %}
+        </ul>
+        {% if page_name != 'Home' %}
+        <p>{{post.body|safe|slice:":50"}}....</p>
+        {% else %}
+        <p>{{post.body|safe|slice:":10"}}....</p>
+        {% endif %}
+        <a href="{% url 'post_details' post.id %}" class="btn btn-outline-primary">Read More</a>
+    </div>
+
+</article>
+{% endfor %}
+<!-- pagination -->
+{% include 'authors/pagination.html' %}
+<!-- pagination -->

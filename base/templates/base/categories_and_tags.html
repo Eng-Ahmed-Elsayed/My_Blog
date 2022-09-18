@@ -1,0 +1,14 @@
+<li class="list-inline-item">
+    <ul class="card-meta-tag list-inline">
+        {% for category in post.categories.all %}
+        <li class="list-inline-item"><a href="{% url 'search' %}?category={{category}}">{{category}}</a></li>
+        {% endfor %}
+    </ul>
+</li>
+<li>
+    <ul class="card-meta-tag list-inline">
+        {% for tag in post.tags.all %}
+        <a href="{% url 'search' %}?tag={{tag}}"># {{tag}} </a>
+        {% endfor %}
+    </ul>
+</li>

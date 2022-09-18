@@ -1,0 +1,31 @@
+{% extends 'main.html' %}
+{% block title %}{{page_name}}{% endblock %}
+{% block content %}
+<section>
+    <div class="py-5">
+        <div class="row"></div>
+        <div class="row">
+            
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8 pt-5 text-center">
+                    <fieldset class="border border-gary">
+                        <form method="post" , enctype="multipart/form-data">
+                            {% csrf_token %}
+                            {% for field in form %}
+                            {{ form.media }}
+                            <h6 for=" {{field.name}} " class="font-weight-bold pt-4 pb-1">{{field.label}}</h6>
+                            {{ field }}
+                            {% if field.help_text %}
+                            <p class="help">{{ field.help_text|safe }}</p>
+                            {% endif %}
+                            {% endfor %}
+                            <input type="submit" class="btn btn-primary">
+                        </form>
+                    </fieldset>
+                </div>
+                <div class="col-lg-2"></div>
+            
+        </div>
+    </div>
+</section>
+{% endblock %}
