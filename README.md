@@ -8,7 +8,7 @@
 
     * Recent Posts
     * ckeditor
-    * English and Arabic Views
+    * English and Arabic Views by taggit and rosetta
     * Admin and User Management
     * Commenting System
     * Sharing & Distribution
